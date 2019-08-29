@@ -7,6 +7,7 @@
         font-family: 'glyph-correction', STKaiti, 'Noto Serif SC', serif;
     }
     .keywords {
+        font-size: 90%;
         font-family: 'glyph-correction', STFangsong, 'Noto Serif SC', serif;
     }
 }
@@ -87,12 +88,12 @@ code {
     padding: 0;
     background-color: unset;
     border-radius: 0;
-    font-size: $fontSize;
+    font-size: 100%;
 }
 pre {
     background-color: unset;
     padding: 0;
-    font-size: $fontSize;
+    font-size: 100%;
     line-height: $lineHeight;
 }
 
