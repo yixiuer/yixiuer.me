@@ -16,7 +16,7 @@ gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
-        cacheId: "reuixiy",
+        cacheId: "yixiuer",
         swDest: "./public/sw.js",
         clientsClaim: true,
         skipWaiting: true,
