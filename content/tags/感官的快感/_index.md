@@ -1,0 +1,3 @@
++++
+slug = "pleasure-of-sense"
++++

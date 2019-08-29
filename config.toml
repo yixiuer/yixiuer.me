@@ -1,6 +1,9 @@
-baseURL = "https://io-oi.me/"
+baseURL = "https://yixiuer.me/"
 theme = "meme"
-title = "reuixiy"
+title = "一休儿的哲学博客 - Yixiuer.me"
+languageCode = "zh-CN"
+copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
+hasCJKLanguage= true
 
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
@@ -11,36 +14,36 @@ pluralizeListTitles = false
 
 summaryLength = 42
 
-enableRobotsTXT = false
+enableRobotsTXT = true
 
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+# pygmentsCodefencesGuessSyntax = true
+# pygmentsOptions = "linenos=table"
 
-enableEmoji = true
+# enableEmoji = true
 
 footnoteReturnLinkContents = "↩"
 
-paginate = 5
+# paginate = 5
 
-[related]
-threshold = 80
-includeNewer = true
-toLower = true
-[[related.indices]]
-name = "categories"
-weight = 100
-[[related.indices]]
-name = "tags"
-weight = 95
-[[related.indices]]
-name = "keywords"
-weight = 90
-[[related.indices]]
-name = "date"
-weight = 10
-pattern = "2006"
+# [related]
+# threshold = 80
+# includeNewer = true
+# toLower = true
+# [[related.indices]]
+# name = "categories"
+# weight = 100
+# [[related.indices]]
+# name = "tags"
+# weight = 95
+# [[related.indices]]
+# name = "keywords"
+# weight = 90
+# [[related.indices]]
+# name = "date"
+# weight = 10
+# pattern = "2006"
 
 [frontmatter]
 lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
@@ -51,40 +54,44 @@ fractions = false
 hrefTargetBlank = true
 extensionsmask = ["hardLineBreak", "backslashLineBreak"]
 
-[languages.zh-cn]
-languageName = "中文"
-contentDir = "content/zh"
-weight = 1
-languageCode = "zh-CN"
-hasCJKLanguage= true
-copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
-[languages.zh-cn.params]
-lineHeight = 2
+# [languages.zh-cn]
+# languageName = "中文"
+# contentDir = "content/zh"
+# weight = 1
+# languageCode = "zh-CN"
+# hasCJKLanguage= true
+# copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
 
-[languages.en-us]
-languageName = "English"
-contentDir = "content/en"
-weight = 2
-languageCode = "en-US"
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
-[languages.en-us.taxonomies]
-# category = "categories"
-# tag = "tags"
-# name = "names"
-[[languages.en-us.menu.home]]
-url = "/en-us/about/"
-weight = 3
-pre = "internal"
-post = "user-circle"
-identifier = "about"
-[languages.en-us.params]
-homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity — seeks for what’s in the darkness"]
-lineHeight = 1.618
-enableSmallCap = true
-postWidth = 28
-enableJustify = false
-enableChinesePunctuationGlyphCorrection = false
-customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+# [languages.en-us]
+# languageName = "English"
+# contentDir = "content/en"
+# weight = 2
+# languageCode = "en-US"
+# copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+# [languages.en-us.taxonomies]
+# # category = "categories"
+# # tag = "tags"
+# # name = "names"
+# [[languages.en-us.menu.main]]
+# url = "/about/"
+# name = "About"
+# weight = 7
+# pre = "internal"
+# post = "user-circle"
+# identifier = "about"
+# [[languages.en-us.menu.home]]
+# url = "/about/"
+# name = "About"
+# weight = 1
+# pre = "internal"
+# identifier = "about"
+# [languages.en-us.params]
+# lineHeight = 1.618
+# enableSmallCap = true
+# postWidth = 28
+# enableJustify = false
+# enableChinesePunctuationGlyphCorrection = false
+# customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
 # uglyURLs = true
 
@@ -124,179 +131,179 @@ baseName = "rss"
 # page = ["HTML"]
 # home = ["HTML", "Atom", "RSS", "SectionsAtom", "SectionsRSS"]
 # section = ["NoUglyHTML", "NoUglyRSS", "NoUglyAtom"]
-# # NOT Work, see: https://github.com/gohugoio/hugo/issues/4528
-# # taxonomyTerm = ["HTML"]
+# # Not working below v0.57.0, see: https://github.com/gohugoio/hugo/issues/4528
+# taxonomyTerm = ["NoUglyHTML", "NoUglyRSS"]
 # taxonomy = ["NoUglyHTML", "NoUglyRSS"]
 
 [outputs]
 page = ["HTML"]
 home = ["HTML", "SectionsAtom", "SectionsRSS"]
 section = ["HTML"]
-# NOT Work, see: https://github.com/gohugoio/hugo/issues/4528
-# taxonomyTerm = ["HTML"]
+# Not working below v0.57.0, see: https://github.com/gohugoio/hugo/issues/4528
+taxonomyTerm = ["HTML"]
 taxonomy = ["HTML"]
 
 [author]
-name = "reuixiy"
-email = "reuixiy@gmail.com"
+name = "一休儿"
+email = "yixiuer.me@gmail.com"
 # Your description, Markdown supported, this theme noly
 motto = "Viva La Vida"
 # Your avatar, URL, this theme noly
 avatar = "/icons/apple-touch-icon.png"
 # URL, this theme noly, Default: baseURL
-website = "https://io-oi.me/"
-twitter = "reuixiy"
-facebook = "reuixiy"
+website = "https://yixiuer.me/"
+twitter = ""
+facebook = ""
 
 # RSS & Atom limit
 [services.rss]
 limit = -1
 
-# [[menu.main]]
-# url = "/home/"
-# name = "首页"
-# weight = 1
-# pre = "internal"
-# post = "home"
-# identifier = "home"
-
-# [[menu.main]]
-# url = "/archives/"
-# name = "归档"
-# weight = 2
-# pre = "internal"
-# post = "archive"
-# identifier = "archives"
-
-# [[menu.main]]
-# url = "/life/"
-# name = "生活"
-# weight = 3
-# pre = "internal"
-# post = "grav"
-# identifier = "life"
-
-# [[menu.main]]
-# url = "/tech/"
-# name = "技术"
-# weight = 4
-# pre = "internal"
-# post = "wpexplorer"
-# identifier = "tech"
-
-# [[menu.main]]
-# url = "/categories/"
-# name = "categories"
-# weight = 5
-# pre = "internal"
-# post = "th"
-# identifier = "categories"
-
-# [[menu.main]]
-# url = "/tags/"
-# name = "tags"
-# weight = 6
-# pre = "internal"
-# post = "tags"
-# identifier = "tags"
-
-# [[menu.main]]
-# url = "/about/"
-# name = "about"
-# weight = 7
-# pre = "internal"
-# post = "user-circle"
-# identifier = "about"
-
-[[menu.home]]
-url = "/life/"
+[[menu.main]]
+url = "/home/"
+name = "首页"
 weight = 1
 pre = "internal"
-post = "grav"
-identifier = "life"
+post = "home"
+identifier = "home"
 
-[[menu.home]]
-url = "/tech/"
+[[menu.main]]
+url = "/original/"
+name = "想法"
 weight = 2
 pre = "internal"
-post = "wpexplorer"
-identifier = "tech"
+post = "pagelines"
+identifier = "original"
 
-[[menu.home]]
-url = "/about/"
+[[menu.main]]
+url = "/poetry/"
+name = "诗作"
 weight = 3
+pre = "internal"
+post = "leaf"
+identifier = "poetry"
+
+[[menu.main]]
+url = "/aphorism/"
+name = "格言"
+weight = 4
+pre = "internal"
+post = "balance-scale"
+identifier = "aphorism"
+
+[[menu.main]]
+url = "/notes/"
+name = "笔记"
+weight = 5
+pre = "internal"
+post = "envira"
+identifier = "notes"
+
+[[menu.main]]
+url = "/excerpt/"
+name = "摘录"
+weight = 6
+pre = "internal"
+post = "link"
+identifier = "excerpt"
+
+[[menu.main]]
+url = "/about/"
+name = "关于"
+weight = 7
 pre = "internal"
 post = "user-circle"
 identifier = "about"
 
 # [[menu.home]]
 # url = "/life/"
-# name = "Life"
 # weight = 1
 # pre = "internal"
+# post = "grav"
 # identifier = "life"
 
 # [[menu.home]]
-# url = "https://t.me/yixiuer"
-# name = "Telegram"
+# url = "/tech/"
 # weight = 2
-# pre = "external"
-# identifier = "telegram"
+# pre = "internal"
+# post = "wpexplorer"
+# identifier = "tech"
 
 # [[menu.home]]
-# url = "/atom.xml"
-# name = "Feed"
+# url = "/about/"
 # weight = 3
-# pre = "external"
-# identifier = "feed"
+# pre = "internal"
+# post = "user-circle"
+# identifier = "about"
 
-[[menu.socials]]
-url = "https://github.com/reuixiy"
-name = "GitHub"
-weight = 1
-pre = "external"
-identifier = "github"
-
-[[menu.socials]]
-url = "https://twitter.com/reuixiy"
-name = "Twitter"
-weight = 2
-pre = "external"
-identifier = "twitter"
-
-[[menu.socials]]
-url = "https://music.163.com/user/home?id=86590096"
-name = "Music"
-weight = 3
-pre = "external"
-identifier = "music"
-
-[[menu.links]]
-url = "/"
-name = "HOME"
+[[menu.home]]
+url = "/home/"
+name = "Home"
 weight = 1
 pre = "internal"
 identifier = "home"
 
-[[menu.links]]
-url = "/coldplay/"
-name = "Coldplay"
+[[menu.home]]
+url = "https://t.me/yixiuer"
+name = "Telegram"
 weight = 2
-pre = "internal"
-identifier = "coldplay"
+pre = "external"
+identifier = "telegram"
 
-[[menu.links]]
+[[menu.home]]
 url = "/atom.xml"
 name = "Feed"
 weight = 3
 pre = "external"
 identifier = "feed"
 
+# [[menu.socials]]
+# url = "https://github.com/yixiuer"
+# name = "GitHub"
+# weight = 1
+# pre = "external"
+# identifier = "github"
+
+# [[menu.socials]]
+# url = ""
+# name = "Twitter"
+# weight = 2
+# pre = "external"
+# identifier = "twitter"
+
+# [[menu.socials]]
+# url = ""
+# name = "Music"
+# weight = 3
+# pre = "external"
+# identifier = "music"
+
+# [[menu.links]]
+# url = "/"
+# name = "HOME"
+# weight = 1
+# pre = "internal"
+# identifier = "home"
+
+# [[menu.links]]
+# url = "/coldplay/"
+# name = "Coldplay"
+# weight = 2
+# pre = "internal"
+# identifier = "coldplay"
+
+# [[menu.links]]
+# url = "/atom.xml"
+# name = "Feed"
+# weight = 3
+# pre = "external"
+# identifier = "feed"
+
 [params]
 enableHeader = true
-displayHeaderInHome = true
+displayHeaderInHome = false
 
-enableMenu = false
+enableMenu = true
 displayMenuInHome = false
 
 # Use for Header, If true, Please put your SVG brand image to `SVG.toml`.
@@ -311,15 +318,15 @@ siteBrandSVGFill = "#fff"
 siteBrandFontSize = 5
 siteBrandFontColor = "#fff"
 
-# siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
-siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
+siteBrandBackgroundColor = "hsl(0, 0%, 0%)"
+# siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
 
 # poetry, footage, posts
-homeLayout = "poetry"
+homeLayout = "footage"
 
 # Layout poetry settings
 # Markdown supported
-homePoetry = ["暗夜中", "渴望一束光的关怀", "在白天", "却更渴望黑洞的吞噬", "因为好奇心，想看看黑暗中有什么"]
+homePoetry = []
 # Unit: em
 homeLinksPadding = 1
 
@@ -328,7 +335,7 @@ homePoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
 homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
 homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
 homeLogo = "/icons/android-chrome-512x512.png"
-homeLogoLink = "/life/"
+homeLogoLink = "/home/"
 homeTitle = "一休儿的哲学博客"
 homeMotto = "易·象·辞"
 homeDescription = "一个关于哲学的博客，目标是构建一个宏大的体系"
@@ -338,15 +345,15 @@ homeLinksDelimiter = "·"
 # URL, For JSON-LD, Twitter Cards, Open Graph
 siteLogo = "/icons/apple-touch-icon.png"
 # For HTML meta
-siteDescription = "这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……"
+siteDescription = "一个关于哲学的博客，目标是构建一个宏大的体系。关键词：真理、形而上学、哲学、物理、诗歌、酒神、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、去中心化、开源、太空。"
 # If not set, will use site’s all taxonomy terms as default
-siteKeywords = []
+siteKeywords = ["真理", "形而上学", "哲学", "物理", "诗歌", "酒神", "尼采", "《查拉图斯特拉如是说》", "神话", "未来", "科幻", "赛博朋克", "反乌托邦", "去中心化", "开源", "太空"]
 # Keep this format, change the number
-siteCreatedTime = "2017-05-27T15:13:14+08:00"
+siteCreatedTime = "2018-02-01T13:42:10+08:00"
 # If you enable `twitterCards`, then add your Twitter username
-siteTwitter = "reuixiy"
+siteTwitter = ""
 # If you enable `openGraph`, then add your Facebook username
-siteFacebook = "reuixiy"
+siteFacebook = ""
 
 # Category
 # sections or categories
@@ -363,32 +370,32 @@ displayPostsCount = true
 enableTagCloud = true
 fontUnit = "em"
 largestFontSize = 2.5
-smallestFontSize = 1
+smallestFontSize = 0.8
 
 # Unit: em
 # You can leave it empty ("") to fallback to default value: 42
 listWidth = 36
-displayListTitle = true
+displayListTitle = false
 # https://gohugo.io/functions/format/
-listDateFormat = "2006-01-02"
+listDateFormat = "1 月 2 日"
 # left / right
 listDatePosition = "right"
 groupByMonth = false
 chineseZodiac = true
-i18nYear = false
+i18nYear = true
 i18nMonth = true
 
 # Taxonomy List
 displayTaxonomyTermCount = true
 
 # Overwrite Hugo’s default value
-mainSections = ["life", "tech"]
+mainSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
 
 # Post Sections
-postSections = ["life", "tech"]
+postSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
 
 # Feed
-feedSections = ["life", "tech"]
+feedSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
 # If `true`, will add content to Atom; If `false`, won’t.
 # Note: By default, will add summary to Atom as `summary`,
 # and if Front Matter have a description, description
@@ -396,7 +403,7 @@ feedSections = ["life", "tech"]
 includeContent = true
 
 # Dark Mode
-enableDarkMode = true
+enableDarkMode = false
 defaultTheme = "light"
 # Note: If true and enableDarkMode equal to `true`,
 # users can still get Dark Mode if their device’s system
@@ -422,8 +429,8 @@ darkImage = false
 # See https://github.com/OneSignal/OneSignal-Website-SDK/issues/332
 # Check and Modify manifest.json (/icons path)
 themeColor = "#fff"
-themeColorDark = "#000"
-safariMaskColor = "#2a6df4"
+# themeColorDark = "#000"
+safariMaskColor = "#000"
 msApplicationTileColor = "#fff"
 
 # Head Meta, SEO & Social Discovery
@@ -444,18 +451,18 @@ enableKaTeX = false
 
 enableComments = false
 enableDisqus = false
-disqusShortname = "meme-5"
+disqusShortname = ""
 
 enableGoogleAnalytics = true
 # `gtag` or `analytics`
 trackingCodeType = "gtag"
-trackingID = "UA-100434861-1"
+trackingID = "UA-121634055-1"
 
 googleSiteVerification = ""
 
 # https://developers.facebook.com/apps/
 # Used for Open Graph
-facebookAppID = "436759587050321"
+facebookAppID = ""
 
 # Post
 
@@ -463,12 +470,12 @@ facebookAppID = "436759587050321"
 duration = 0.5
 
 # HSL color
-primaryColorLight = "220, 90%, 56%"
-primaryColorDark = "349, 75%, 51%"
+primaryColorLight = "0, 0%, 0%"
+# primaryColorDark = "349, 75%, 51%"
 
 # Unit: em
 # You can leave it empty ("") to fallback to default value: 42
-postWidth = 36
+postWidth = 28
 
 # Do NOT Change this value!
 # If one post is not original, set in that post’s Front Matter.
@@ -505,13 +512,13 @@ linkHeadingsToTOC = true
 # Headings Anchor / Section Sign (Add section sign before headings)
 enableHeadingsAnchor = true
 # RegEX format, Defaut: 1-6 (1|2|3|4|5|6), h1-h6
-headingsOpt = ""
+headingsOpt = "2"
 # `anchorIcon` has a higher priority than `anchorSymbol`
 # Default: §
-anchorSymbol = "#"
-anchorIcon = "link"
+anchorSymbol = ""
+anchorIcon = ""
 enableAnchorLink = true
-enableAnchorAutoHide = true
+enableAnchorAutoHide = false
 
 # Image / Video
 # If true, will replace `title` with caption.
@@ -521,8 +528,8 @@ captionPrefix = "◎ "
 # Image / Video Hosting
 # Only support absolute URLs relative to root,
 # eg: /../../*.jpg
-enableHost = true
-hostURL = "https://io-oi.oss-cn-shanghai.aliyuncs.com/"
+enableHost = false
+hostURL = ""
 headAlso = false
 
 # Footnote
@@ -542,7 +549,7 @@ enableEmphasisPoint = true
 
 # Typography
 # Fonts, Unit: px
-fontSize = 16
+fontSize = 18
 # Unitless values: use this number multiplied by the element’s font size
 # Apply to post paragraph & toc only
 lineHeight = 2
@@ -550,17 +557,17 @@ lineHeight = 2
 # Any value is not set, fallback to `fontFamilyBody` it will.
 # If you use SVG as your Site Brand, then leave this value empty.
 fontFamilySiteBrand = ""
-fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
-fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
-fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
-fontFamilyQuote = ""
-fontFamilyTOC = ""
-fontFamilyCaption = ""
-fontFamilyFooter = ""
-fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+fontFamilyTitle = "'EB Garamond', 'Noto Serif SC', serif"
+fontFamilyHeadings = "'EB Garamond', 'Noto Serif SC', serif"
+fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+fontFamilyQuote = "'EB Garamond', STFangsong, 'Noto Serif SC', serif"
+fontFamilyTOC = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+fontFamilyCaption = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+fontFamilyFooter = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+fontFamilyBody = "'EB Garamond', STShusong, 'Noto Serif SC', serif"
 
 # https://fonts.google.com/
-fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,700|Source+Code+Pro:400,400i,700,700i|Cinzel+Decorative:700&display=swap&subset=chinese-simplified'
+fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,500,700&display=swap&subset=chinese-simplified'
 
 enableChinesePunctuationGlyphCorrection = true
 
@@ -568,31 +575,31 @@ enableChinesePunctuationGlyphCorrection = true
 enableSmallCap = false
 
 # Post first paragraph
-enableDropCap = true
+enableDropCap = false
 # Every paragraph after `<hr />` or `---` in Markdown
 enableDropCapAfterHr = false
 deleteHrBeforeDropCap = false
 
-enableParagraphIndent = false
+enableParagraphIndent = true
 # margin or indent, globe setting, Front Matter: indent
-paragraphStyle = "margin"
+paragraphStyle = "indent"
 
 enableJustify = true
 
 # Post Copyright
-enablePostCopyright = true
+enablePostCopyright = false
 displayPostCopyright = false
 
-enablePostUpdatedBadge = true
+enablePostUpdatedBadge = false
 displayUpdatedBadge = false
 enableBadgeTitle = true
 badgeTitlePrefix = "Updated @ "
 
-enablePostGitInfo = true
+enablePostGitInfo = false
 displayPostGitInfo = false
-repoURL = "https://github.com/reuixiy/io-oi.me"
-# or https://github.com/reuixiy/io-oi.me/edit/master
-repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"
+repoURL = "https://github.com/yixiuer/yixiuer.me"
+# or https://github.com/yixiuer/yixiuer.me/edit/master
+repoEditURL = "https://github.com/yixiuer/yixiuer.me/blob/master"
 gitIcon = "code-branch"
 displayCommitHash = true
 displayCommitMessage = true
@@ -614,8 +621,8 @@ enablePostTags = false
 postTagsIcon = "tag"
 
 # Post minimal footer
-enableMinimalFooter = true
-enableAboutPageMinimalFooter = true
+enableMinimalFooter = false
+enableAboutPageMinimalFooter = false
 
 # Post nav
 # Note: Designed from a spatial perspective rather than
@@ -623,11 +630,11 @@ enableAboutPageMinimalFooter = true
 #       Therefore, you will get a newer post if you click
 #       prev on the left; you will get a older post if
 #       you click next on the right.
-enablePostNav = false
+enablePostNav = true
 postNavInSection = true
 
 # Syntax Highlight
-enableHighlight = true
+enableHighlight = false
 
 # Back to Top
 enableBackToTop = true
@@ -640,19 +647,19 @@ enableFooter = true
 displayCopyrightSymbol = true
 displaySiteCreatedYear = true
 iconBetweenYearAndAuthor = "heart"
-iconColor = "#f06292"
-iconAnimation = true
+iconColor = "#ccc"
+iconAnimation = false
 displayPoweredBy = true
 displaySiteCopyright = false
 customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # Multilingual
-enableLangToggle = true
+enableLangToggle = false
 # Display LangToggle only when content is translated
 autoHideLangToggle = true
-hideLangToggleInHome = false
+hideLangToggleInHome = true
 
 # 404
-fofPoster = "/images/flying-clouds-720p.jpg"
-fofVideoWebm = "https://io-oi.oss-cn-shanghai.aliyuncs.com/videos/flying-clouds-720p.webm"
-fofVideoMp4 = "https://io-oi.oss-cn-shanghai.aliyuncs.com/videos/flying-clouds-720p.mp4"
+fofPoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
+fofVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
+fofVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"

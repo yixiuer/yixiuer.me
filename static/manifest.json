@@ -1,0 +1,16 @@
+{
+    "name": "一休儿的哲学博客",
+    "short_name": "一休儿",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000",
+    "background_color": "#fff",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "start_url": "/?utm_source=homescreen"
+}
