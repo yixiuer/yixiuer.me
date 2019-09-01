@@ -614,6 +614,7 @@ editText = "Edit Me?"
 
 # Related Posts
 enableRelatedPosts = false
+displayRelatedPosts = false
 relatedPostsNumber = 5
 relatedPostsIcon = "plus-circle"
 
