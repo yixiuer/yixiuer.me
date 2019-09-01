@@ -557,6 +557,7 @@ lineHeight = 2
 # Any value is not set, fallback to `fontFamilyBody` it will.
 # If you use SVG as your Site Brand, then leave this value empty.
 fontFamilySiteBrand = ""
+fontFamilyMenu = "'EB Garamond', 'Noto Serif SC', serif"
 fontFamilyTitle = "'EB Garamond', 'Noto Serif SC', serif"
 fontFamilyHeadings = "'EB Garamond', 'Noto Serif SC', serif"
 fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
