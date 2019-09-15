@@ -661,6 +661,9 @@ enableLangToggle = false
 autoHideLangToggle = true
 hideLangToggleInHome = true
 
+# Style & Script
+enableFingerprint = false
+
 # 404
 fofPoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
 fofVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
