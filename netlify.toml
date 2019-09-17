@@ -11,6 +11,3 @@ HUGO_ENABLEGITINFO = "true"
   from = "https://yixiuer.netlify.com/*"
   to = "https://yixiuer.me/:splat"
   force = true
-[[redirects]]
-  from = "/tags/"
-  to = "/home/"
