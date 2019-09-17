@@ -8,6 +8,8 @@ hasCJKLanguage= true
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 
+relativeURLs = true
+
 enableGitInfo = true
 
 pluralizeListTitles = false
@@ -331,10 +333,10 @@ homePoetry = []
 homeLinksPadding = 1
 
 # Layout footage settings
-homePoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
-homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
-homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
-homeLogo = "/icons/android-chrome-512x512.png"
+homePoster = "https://ipfs.io/ipns/yixiuer.me/images/reflection-of-tree-at-night-10s-720p.jpg"
+homeVideoWebm = "https://ipfs.io/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+homeVideoMp4 = "https://ipfs.io/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+homeLogo = "https://ipfs.io/ipns/yixiuer.me/icons/android-chrome-512x512.png"
 homeLogoLink = "/home/"
 homeTitle = "一休儿的哲学博客"
 homeMotto = "易·象·辞"
@@ -525,12 +527,19 @@ enableAnchorAutoHide = false
 enableCaption = true
 captionPrefix = "◎ "
 
-# Image / Video Hosting
+# Image Hosting
 # Only support absolute URLs relative to root,
 # eg: /../../*.jpg
-enableHost = false
-hostURL = ""
+enableImageHost = false
+imageHostURL = "https://example.com/"
+# Use host URL for head meta tags also
 headAlso = false
+
+# Video Hosting
+# Only support absolute URLs relative to root,
+# eg: /../../*.mp4
+enableVideoHost = true
+videoHostURL = "https://video.dtube.top/ipfs/"
 
 # Footnote
 # Footnote Ref with Square Brackets `[]`
@@ -665,6 +674,6 @@ hideLangToggleInHome = true
 enableFingerprint = false
 
 # 404
-fofPoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
-fofVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
-fofVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
+fofPoster = "https://ipfs.io/ipns/io-oi.me/images/reflection-of-tree-at-night-10s-720p.jpg"
+fofVideoWebm = "https://ipfs.io/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+fofVideoMp4 = "https://ipfs.io/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
