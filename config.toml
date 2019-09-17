@@ -333,10 +333,10 @@ homePoetry = []
 homeLinksPadding = 1
 
 # Layout footage settings
-homePoster = "https://ipfs.io/ipns/yixiuer.me/images/reflection-of-tree-at-night-10s-720p.jpg"
-homeVideoWebm = "https://ipfs.io/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
-homeVideoMp4 = "https://ipfs.io/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
-homeLogo = "https://ipfs.io/ipns/yixiuer.me/icons/android-chrome-512x512.png"
+homePoster = "https://gateway.pinata.cloud/ipns/yixiuer.me/images/reflection-of-tree-at-night-10s-720p.jpg"
+homeVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+homeVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+homeLogo = "https://gateway.pinata.cloud/ipns/yixiuer.me/icons/android-chrome-512x512.png"
 homeLogoLink = "/home/"
 homeTitle = "一休儿的哲学博客"
 homeMotto = "易·象·辞"
@@ -674,6 +674,6 @@ hideLangToggleInHome = true
 enableFingerprint = false
 
 # 404
-fofPoster = "https://ipfs.io/ipns/io-oi.me/images/reflection-of-tree-at-night-10s-720p.jpg"
-fofVideoWebm = "https://ipfs.io/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.webm"
-fofVideoMp4 = "https://ipfs.io/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+fofPoster = "https://gateway.pinata.cloud/ipns/io-oi.me/images/reflection-of-tree-at-night-10s-720p.jpg"
+fofVideoWebm = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+fofVideoMp4 = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.mp4"

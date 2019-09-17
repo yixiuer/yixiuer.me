@@ -112,7 +112,7 @@ workbox.routing.registerRoute(
 
 // External Images
 workbox.routing.registerRoute(
-    /^https:\/\/ipfs\.io\/ipns\/yixiuer\.me\/(?:images|icons)\/.*/,
+    /^https:\/\/gateway\.pinata\.cloud\/ipns\/yixiuer\.me\/(?:images|icons)\/.*/,
     new workbox.strategies.CacheFirst({
         cacheName: "external-images",
         plugins: [
