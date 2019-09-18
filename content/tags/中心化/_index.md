@@ -1,3 +1,3 @@
 +++
-slug = "centralization"
+slug = "centralized"
 +++
