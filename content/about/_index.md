@@ -28,4 +28,4 @@ keywords = ["about", "关于此博客", "一休儿"]
 
 如果你在浏览博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱的地址是：<a href="mailto:yixiuer.me@gmail.com" target="_blank">yixiuer.me@gmail.com</a>。
 
-另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，部署在星际文件系统（[IPFS](https://ipfs.io/)）上。
+另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
