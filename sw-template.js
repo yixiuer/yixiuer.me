@@ -130,13 +130,16 @@ workbox.routing.registerRoute(
 // Videos
 workbox.routing.registerRoute(
     /^https:\/\/gateway\.pinata\.cloud\/ipns\/yixiuer\.me\/videos\/.*/,
-    new workbox.strategies.CacheOnly({
+    new workbox.strategies.CacheFirst({
         cacheName: "videos",
         plugins: [
-            new workbox.cacheableResponse.Plugin({
-                statuses: [200]
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.rangeRequests.Plugin()
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
         ]
     })
 );
