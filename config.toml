@@ -89,7 +89,7 @@ extensionsmask = ["hardLineBreak", "backslashLineBreak"]
 # identifier = "about"
 # [languages.en-us.params]
 # lineHeight = 1.618
-# enableSmallCap = true
+# enableSmallCaps = true
 # postWidth = 28
 # enableJustify = false
 # enableChinesePunctuationGlyphCorrection = false
@@ -582,7 +582,7 @@ fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,70
 enableChinesePunctuationGlyphCorrection = true
 
 # Post headings and contents title
-enableSmallCap = false
+enableSmallCaps = false
 
 # Post first paragraph
 enableDropCap = false
