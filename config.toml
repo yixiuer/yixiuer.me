@@ -3,7 +3,7 @@ theme = "meme"
 title = "一休儿的哲学博客 - Yixiuer.me"
 languageCode = "zh-CN"
 copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
-hasCJKLanguage= true
+hasCJKLanguage = true
 
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
