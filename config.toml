@@ -430,7 +430,7 @@ darkImage = false
 # See https://github.com/w3c/manifest/issues/689
 # See https://github.com/OneSignal/OneSignal-Website-SDK/issues/332
 # Check and Modify manifest.json (/icons path)
-themeColor = "#fcfaf2"
+themeColor = "#000"
 # themeColorDark = "#1c1c21"
 safariMaskColor = "#000"
 msApplicationTileColor = "#fff"
