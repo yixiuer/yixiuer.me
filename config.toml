@@ -333,10 +333,10 @@ homePoetry = []
 homeLinksPadding = 1
 
 # Layout footage settings
-homePoster = "https://gateway.pinata.cloud/ipns/yixiuer.me/images/reflection-of-tree-at-night-10s-720p.jpg"
+homePoster = "../images/reflection-of-tree-at-night-10s-720p.jpg"
 homeVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
 homeVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
-homeLogo = "https://gateway.pinata.cloud/ipns/yixiuer.me/icons/android-chrome-512x512.png"
+homeLogo = "/icons/android-chrome-512x512.png"
 homeLogoLink = "/home/"
 homeTitle = "一休儿的哲学博客"
 homeMotto = "易·象·辞"
@@ -531,7 +531,7 @@ headAlso = false
 # Video Hosting
 # Only support absolute URLs relative to root,
 # eg: /../../*.mp4
-enableVideoHost = true
+enableVideoHost = false
 videoHostURL = "https://gateway.pinata.cloud/ipfs/"
 
 # Footnote
@@ -667,6 +667,6 @@ hideLangToggleInHome = true
 enableFingerprint = false
 
 # 404
-fofPoster = "https://gateway.pinata.cloud/ipns/io-oi.me/images/reflection-of-tree-at-night-10s-720p.jpg"
-fofVideoWebm = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.webm"
-fofVideoMp4 = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+fofPoster = "../images/reflection-of-tree-at-night-10s-720p.jpg"
+fofVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+fofVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
