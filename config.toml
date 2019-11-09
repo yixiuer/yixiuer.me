@@ -1,12 +1,12 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "https://yixiuer.me/"
+title = "一休儿的哲学博客 - Yixiuer.me"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
 
 # 主题选择
 theme = "meme"
@@ -28,10 +28,10 @@ enableEmoji = false
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
 paginate = 5
@@ -44,17 +44,17 @@ pygmentsOptions = "linenos=table"
 
 # URL 相关
 disablePathToLower = false
-relativeURLs = false
+relativeURLs = true
 uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
 [taxonomies]
-    category = "categories"
+    # category = "categories"
     tag = "tags"
 
 # 修改时间
@@ -73,26 +73,26 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "一休儿"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "yixiuer.me@gmail.com"
     # 座右铭或简介
     motto = "Viva La Vida"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://yixiuer.me/"
     # 推特
-    twitter = "reuixiy"
+    twitter = "yixiuer"
 
 # 相关文章
 [related]
     threshold = 80
     includeNewer = true
     toLower = true
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+    # [[related.indices]]
+    #     name = "categories"
+    #     weight = 100
     [[related.indices]]
         name = "tags"
         weight = 95
@@ -152,36 +152,97 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
+    # [[menu.main]]
+    #     url = "/"
+    #     name = "首页"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
+    # [[menu.main]]
+    #     url = "/posts/"
+    #     name = "文章"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "archive"
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "th"
+    # [[menu.main]]
+    #     url = "/tags/"
+    #     name = "标签"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = "tags"
+    # [[menu.main]]
+    #     url = "/about/"
+    #     name = "关于"
+    #     weight = 5
+    #     pre = "internal"
+    #     post = "user-circle"
+
+    # 自定义的菜单栏
     [[menu.main]]
-        url = "/"
+        url = "/home/"
         name = "首页"
         weight = 1
         pre = "internal"
         post = "home"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/original/"
+        name = "想法"
         weight = 2
         pre = "internal"
-        post = "archive"
+        post = "pagelines"
     [[menu.main]]
-        url = "/categories/"
-        name = "分类"
+        url = "/poetry/"
+        name = "诗作"
         weight = 3
         pre = "internal"
-        post = "th"
+        post = "leaf"
     [[menu.main]]
-        url = "/tags/"
-        name = "标签"
+        url = "/aphorism/"
+        name = "格言"
         weight = 4
         pre = "internal"
-        post = "tags"
+        post = "balance-scale"
+    [[menu.main]]
+        url = "/notes/"
+        name = "笔记"
+        weight = 5
+        pre = "internal"
+        post = "envira"
+    [[menu.main]]
+        url = "/excerpt/"
+        name = "摘录"
+        weight = 6
+        pre = "internal"
+        post = "link"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 5
+        weight = 7
         pre = "internal"
         post = "user-circle"
+
+    # 首页的底部链接
+    [[menu.home]]
+        url = "/home/"
+        name = "Home"
+        weight = 1
+        pre = "internal"
+    [[menu.home]]
+        url = "https://t.me/yixiuer"
+        name = "Telegram"
+        weight = 2
+        pre = "external"
+    [[menu.home]]
+        url = "/atom.xml"
+        name = "Feed"
+        weight = 3
+        pre = "external"
 
 
 
@@ -196,7 +257,7 @@ uglyURLs = false
     enableHeader = true
 
     # 是否在首页显示
-    displayHeaderInHome = true
+    displayHeaderInHome = false
 
 
     ######################################
@@ -216,9 +277,9 @@ uglyURLs = false
     siteBrandFontColor = "#fff"
 
     # 背景色
-    # siteBrandBackgroundColor = "hsl(240, 8%, 12%)"
+    siteBrandBackgroundColor = "hsl(0, 0%, 0%)"
     # 背景图片
-    siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
+    # siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%)"
     # 注意：背景色和背景图片只能二选一
 
 
@@ -229,10 +290,10 @@ uglyURLs = false
     enableMenu = true
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
 
     # 是否按文章分区高亮当前菜单项
-    activeInSection = false
+    activeInSection = true
     # 说明：如果开启，那么当某一文章的分区名是某
     #      一菜单项中的 `url` 时，该文章页面中
     #      的该菜单项也会被高亮
@@ -247,7 +308,7 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "footage"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
@@ -256,16 +317,16 @@ uglyURLs = false
     homeLinksPadding = 1
 
     ## 「视频片段」
-    homePoster = ""
-    homeVideoWebm = ""
-    homeVideoMp4 = ""
-    homeLogo = ""
-    homeLogoLink = ""
-    homeTitle = ""
-    homeMotto = ""
-    homeDescription = ""
-    homeKeywords = ""
-    homeLinksDelimiter = ""
+    homePoster = "../images/reflection-of-tree-at-night-10s-720p.jpg"
+    homeVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+    homeVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+    homeLogo = "/icons/android-chrome-512x512.png"
+    homeLogoLink = "/home/"
+    homeTitle = "一休儿的哲学博客"
+    homeMotto = "易·象·辞"
+    homeDescription = "一个关于哲学的博客，目标是构建一个宏大的体系"
+    homeKeywords = "关键词：真理、形而上学、哲学、物理、诗歌、酒神、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、去中心化、开源、太空"
+    homeLinksDelimiter = "·"
 
 
     ######################################
@@ -276,21 +337,21 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "一个关于哲学的博客，目标是构建一个宏大的体系。关键词：真理、形而上学、哲学、物理、诗歌、酒神、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、去中心化、开源、太空。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的关键词
-    siteKeywords = []
+    siteKeywords = ["真理", "形而上学", "哲学", "物理", "诗歌", "酒神", "尼采", "《查拉图斯特拉如是说》", "神话", "未来", "科幻", "赛博朋克", "反乌托邦", "去中心化", "开源", "太空"]
     # 说明：如果留空（[]），则会取站点的所有类别名、分
     #      区名（如果按分区分类）作为默认值
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2018-02-01T13:42:10+08:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "yixiuer"
     # 说明：用于 Twitter Cards
 
 
@@ -311,7 +372,7 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"
+    categoryBy = "sections"
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
@@ -343,7 +404,7 @@ uglyURLs = false
     # 最大字号
     largestFontSize = 2.5
     # 最小字号
-    smallestFontSize = 1
+    smallestFontSize = 0.8
 
 
     ######################################
@@ -355,7 +416,7 @@ uglyURLs = false
     #      单位：em
 
     # 是否显示列表标题
-    displayListTitle = true
+    displayListTitle = false
 
     # 日期的格式
     listDateFormat = "1 月 2 日"
@@ -366,7 +427,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
@@ -397,10 +458,10 @@ uglyURLs = false
     #      的文件夹的名字。
 
     # 文章分区
-    postSections = ["posts"]
+    postSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
 
     # 主分区
-    mainSections = ["posts"]
+    mainSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
     # 说明：MemE 主题没有使用此项，但 Hugo 的
     #      一些内建模板（比如 RSS）可能使用了
     #      此项。故如果你需额外地使用 Hugo 的
@@ -412,7 +473,7 @@ uglyURLs = false
     # Atom & RSS
 
     # 订阅的分区范围
-    feedSections = ["posts"]
+    feedSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
 
     # 是否包括全文内容
     includeContent = true
@@ -433,7 +494,7 @@ uglyURLs = false
     # 深色模式
 
     # 是否开启
-    enableDarkMode = true
+    enableDarkMode = false
 
     # 默认模式
     defaultTheme = "light"
@@ -468,9 +529,9 @@ uglyURLs = false
     #      manifest.json，并检查和修改相关内容
     #      （图标的路径）。
 
-    themeColor = "#fff"
-    themeColorDark = "#1c1c21"
-    safariMaskColor = "#2a6df4"
+    themeColor = "#000"
+    # themeColorDark = "#1c1c21"
+    safariMaskColor = "#000"
     msApplicationTileColor = "#fff"
 
 
@@ -503,7 +564,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -537,13 +598,13 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableGoogleAnalytics = false
+    enableGoogleAnalytics = true
 
     # 跟踪代码的类型
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = ""
+    trackingID = "UA-121634055-1"
 
 
     ######################################
@@ -559,13 +620,13 @@ uglyURLs = false
     duration = 0.5
 
     # 浅色模式的主色
-    primaryColorLight = "220, 90%, 56%"
+    primaryColorLight = "0, 0%, 0%"
     # 深色模式的主色
-    primaryColorDark = "201, 65%, 62%"
+    # primaryColorDark = "201, 65%, 62%"
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 36
+    postWidth = 28
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -587,12 +648,12 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
     # 是否在首页开启
-    enablePostMetaInHome = true
+    enablePostMetaInHome = false
     # 说明：仅对「文章摘要」和「普通页面」
     #      首页布局有效
 
@@ -655,24 +716,24 @@ uglyURLs = false
     enableHeadingsAnchor = true
 
     # 分节标题的级别范围
-    headingsOpt = "1-6"
+    headingsOpt = "2"
     # 说明：正则格式，默认 1-6，即 1|2|3|4|5|6，
     #      即 h1 到 h6。
 
     # 锚点符号
-    anchorSymbol = "#"
+    anchorSymbol = ""
     # 说明：锚点图标的优先级高于锚点符号
     #      默认值：§
 
     # 锚点图标
-    anchorIcon = "link"
+    anchorIcon = ""
     # 说明：留空（""）则回退到锚点符号
 
     # 是否开启锚点链接
     enableAnchorLink = true
 
     # 是否自动隐藏锚点
-    enableAnchorAutoHide = true
+    enableAnchorAutoHide = false
 
 
     ######################################
@@ -715,7 +776,7 @@ uglyURLs = false
     enableVideoHost = false
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://gateway.pinata.cloud/ipfs/"
 
 
     ######################################
@@ -752,26 +813,26 @@ uglyURLs = false
     # 品牌栏
     fontFamilySiteBrand = ""
     # 菜单栏
-    fontFamilyMenu = ""
+    fontFamilyMenu = "'Noto Serif SC', serif"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
     fontFamilyTitle = "'Noto Serif SC', serif"
     # 分节标题、目录标题
     fontFamilyHeadings = "'Noto Serif SC', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 引用
-    fontFamilyQuote = ""
+    fontFamilyQuote = "'EB Garamond', STFangsong, 'Noto Serif SC', serif"
     # 文章目录
-    fontFamilyTOC = ""
+    fontFamilyTOC = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 说明文字
-    fontFamilyCaption = ""
+    fontFamilyCaption = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 页脚
-    fontFamilyFooter = ""
+    fontFamilyFooter = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 主体
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'EB Garamond', STShusong, 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified"
+    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,500,700&display=swap&subset=chinese-simplified"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -781,7 +842,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 16
+    fontSize = 18
 
     ######################################
     ## 行间距
@@ -796,7 +857,7 @@ uglyURLs = false
     enableParagraphIndent = true
 
     # 分段样式（全局设置）
-    paragraphStyle = "margin"
+    paragraphStyle = "indent"
     # 说明：段间距式（margin）或段首缩排（indent）
     #      文章的 Front Matter 中的 `indent`
     #      的优先级高于此处
@@ -856,10 +917,10 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的的优先级高于此处
 
@@ -868,10 +929,10 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false
     # 说明：文章的 Front Matter 中的 `badge`
     #      的的优先级高于此处
 
@@ -893,9 +954,9 @@ uglyURLs = false
     #      的的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/yixiuer/yixiuer.me"
     # 编辑地址
-    repoEditURL = ""
+    repoEditURL = "https://github.com/yixiuer/yixiuer.me/blob/master"
 
     # Git 的图标
     gitIcon = "code-branch"
@@ -926,10 +987,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = true
+    enableRelatedPosts = false
 
     # 是否显示（全局设置）
-    displayRelatedPosts = true
+    displayRelatedPosts = false
     # 说明：文章的 Front Matter 中的 `related`
     #      的的优先级高于此处
 
@@ -944,7 +1005,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"
@@ -984,7 +1045,7 @@ uglyURLs = false
     enableBackToTop = true
 
     # 是否在首页显示
-    displayBackToTopInHome = true
+    displayBackToTopInHome = false
 
     # 按钮图标
     backToTopIcon = "arrow-up"
@@ -1007,18 +1068,18 @@ uglyURLs = false
     # 年份与作者之间的图标
     iconBetweenYearAndAuthor = "heart"
     # 图标颜色
-    iconColor = "#f06292"
+    iconColor = "#ccc"
     # 是否开启图标的跳动效果
-    iconAnimation = true
+    iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
     displayPoweredBy = true
 
     # 是否显示站点的版权信息
-    displaySiteCopyright = true
+    displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 
     ######################################
@@ -1040,7 +1101,7 @@ uglyURLs = false
     # 代码高亮
 
     # 是否开启
-    enableHighlight = true
+    enableHighlight = false
 
 
     ######################################
@@ -1055,9 +1116,9 @@ uglyURLs = false
     # 404 页面
 
     # 视频封面
-    fofPoster = ""
+    fofPoster = "../images/reflection-of-tree-at-night-10s-720p.jpg"
 
     # 视频地址
-    fofVideoWebm = ""
-    fofVideoMp4 = ""
+    fofVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
+    fofVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
     # 说明：视频地址可留空
