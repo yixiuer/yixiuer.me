@@ -94,8 +94,7 @@ pre {
 }
 
 .anchor-link {
-    transform: translate(-100%, -7%);
-    font-family: 'Noto Serif SC', serif;
+    transform: translate(-100%, 0);
 }
 .indent .anchor-link {
     display: none;
@@ -154,7 +153,7 @@ h4 {
     }
     .anchor-link {
         position: relative;
-        transform: translate(0, -7%);
+        transform: translate(0, 0);
     }
     .tag-cloud {
         width: auto;
