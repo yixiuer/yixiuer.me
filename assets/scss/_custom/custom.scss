@@ -121,11 +121,6 @@ h4 {
     margin: 0 -3em;
 }
 
-.post-nav {
-    margin: 9em -6em -6em;
-    border: none;
-}
-
 @media (max-width: ($postWidth + 5 + 12) * $fontSize) {
     body {
         background-color: #fcfaf2;
@@ -158,8 +153,5 @@ h4 {
     .tag-cloud {
         width: auto;
         margin: 0;
-    }
-    .post-nav {
-        margin: 5em 0 0;
     }
 }
