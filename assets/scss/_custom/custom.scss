@@ -93,13 +93,6 @@ pre {
     line-height: $lineHeight;
 }
 
-.anchor-link {
-    transform: translate(-100%, 0);
-}
-.indent .anchor-link {
-    display: none;
-}
-
 h2 {
     font-size: 1.4em;
 }
@@ -145,10 +138,6 @@ h4 {
     .post {
         padding: 0;
         margin: 0;
-    }
-    .anchor-link {
-        position: relative;
-        transform: translate(0, 0);
     }
     .tag-cloud {
         width: auto;

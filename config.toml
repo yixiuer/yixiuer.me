@@ -738,7 +738,7 @@ uglyURLs = false
     # 分节标题锚点
 
     # 是否开启
-    enableHeadingsAnchor = true
+    enableHeadingsAnchor = false
 
     # 分节标题的级别范围
     headingsOpt = "2"
