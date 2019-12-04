@@ -1,3 +1,3 @@
 +++
-slug = "floss"
+slug = "foss"
 +++
