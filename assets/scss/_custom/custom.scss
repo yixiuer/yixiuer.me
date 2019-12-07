@@ -12,6 +12,21 @@
     }
 }
 
+h1, h2, h3, h4, h5, h6, th, dt {
+    font-weight: normal;
+}
+
+[data-type="poetry"], [data-type="aphorism"] {
+    .post-body p {
+        font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', serif;
+        font-size: 125%;
+    }
+}
+
+.tag-cloud-item {
+    font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', serif;
+}
+
 body, .back-to-top, ::-webkit-scrollbar-track {
     background-color: #eceff1;
 }
@@ -59,7 +74,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 6.2em;
+    bottom: 5.6em;
     left: 0;
     font-size: 80%;
     padding: 0.2em 0;
@@ -77,7 +92,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     }
 }
 .footer-inner {
-    padding-bottom: 0.5em;
+    padding: 2em 2em 2em 2.2em;
 }
 
 code {
@@ -91,22 +106,6 @@ pre {
     padding: 0;
     font-size: 100%;
     line-height: $lineHeight;
-}
-
-h2 {
-    font-size: 1.4em;
-}
-h3 {
-    font-size: 1.2em;
-}
-h4 {
-    font-size: 1em;
-}
-.list-year {
-    font-size: 1.8em;
-}
-.list-month {
-    font-size: 1.6em;
 }
 
 .tag-cloud {

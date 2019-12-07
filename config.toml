@@ -411,7 +411,7 @@ uglyURLs = false
     # 最大字号
     largestFontSize = 2.5
     # 最小字号
-    smallestFontSize = 0.8
+    smallestFontSize = 1
 
 
     ######################################
@@ -845,9 +845,9 @@ uglyURLs = false
     # 菜单栏
     fontFamilyMenu = "'Noto Serif SC', serif"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyTitle = "'ZCOOL XiaoWei', 'EB Garamond', 'Noto Serif SC', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyHeadings = "'Ma Shan Zheng', 'EB Garamond', 'Noto Serif SC', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚
     fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 引用
@@ -857,12 +857,12 @@ uglyURLs = false
     # 说明文字
     fontFamilyCaption = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 页脚
-    fontFamilyFooter = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+    fontFamilyFooter = "'EB Garamond', 'Long Cang', STKaiti, 'Noto Serif SC', serif"
     # 主体
     fontFamilyBody = "'EB Garamond', STShusong, 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,500,700&display=swap&subset=chinese-simplified"
+    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,500,700|ZCOOL+XiaoWei|Ma+Shan+Zheng|Long+Cang&display=swap&subset=chinese-simplified"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -1093,7 +1093,7 @@ uglyURLs = false
     displayCopyrightSymbol = true
 
     # 是否显示站点的创建年份
-    displaySiteCreatedYear = true
+    displaySiteCreatedYear = false
 
     # 年份与作者之间的图标，留空（""）则无
     iconBetweenYearAndAuthor = "heart"
@@ -1103,13 +1103,13 @@ uglyURLs = false
     iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     # 是否显示站点的版权信息
     displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+    customFooter = ""
 
 
     ######################################
