@@ -2,7 +2,7 @@
 title = "Now My Feet Won’t Touch The Ground"
 tags = ["coldplay", "music", "想象", "critique(批判)", "practical-science(实践科学)", "诗", "目标", "前额一冷", "学习", "酒神", "星空", "选择", "海", "escapist"]
 date = "2017-09-09T16:04:20+08:00"
-slug = "now-my-feet-won-t-touch-the-ground"
+slug = "now-my-feet-wont-touch-the-ground"
 +++
 
 小时候斜望着夜空中的星光  
