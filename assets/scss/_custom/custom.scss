@@ -113,10 +113,13 @@ pre {
     margin: 0 -3em;
 }
 
-@media (max-width: ($postWidth + 5 + 12) * $fontSize) {
+@media (max-width: $maxWidth) {
     body {
         background-color: #fcfaf2;
         font-size: 16px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #fcfaf2;
     }
     .list-item ::before {
         border-color: #fcfaf2;
