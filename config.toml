@@ -876,7 +876,7 @@ uglyURLs = false
     fontFamilyTitle = "'ZCOOL XiaoWei', 'EB Garamond', 'Noto Serif SC', serif"
     # 分节标题、目录标题
     fontFamilyHeadings = "'Ma Shan Zheng', 'EB Garamond', 'Noto Serif SC', serif"
-    # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚
+    # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
     # 引用
     fontFamilyQuote = "'EB Garamond', STFangsong, 'Noto Serif SC', serif"
