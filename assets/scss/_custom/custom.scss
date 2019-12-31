@@ -75,9 +75,10 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     width: 100%;
     text-align: center;
     bottom: 5.6em;
-    left: 0;
     font-size: 80%;
-    padding: 0.2em 0;
+    a {
+        padding: 0.5em;
+    }
 }
 
 .footer {
