@@ -25,8 +25,8 @@ keywords = ["about", "关于此博客", "一休儿"]
 虽然博客仍处于建设初期，但如果你想订阅一休儿的哲学博客，可以通过下面两种方式：
 
 1. [Telegram Channel](https://t.me/yixiuer)；
-2. <a href="/atom.xml" target="_blank">Atom</a>╱<a href="/rss.xml" target="_blank">RSS</a>。
+2. <a href="/atom.xml" target="_blank" rel="noopener">Atom</a>╱<a href="/rss.xml" target="_blank" rel="noopener">RSS</a>。
 
-如果你在浏览博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱的地址是：<a href="mailto:yixiuer.me@gmail.com" target="_blank">yixiuer.me@gmail.com</a>。
+如果你在浏览博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱的地址是：[yixiuer.me@gmail.com](mailto:yixiuer.me@gmail.com)。
 
 另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客使用 GitHub Issues [持续写作](https://io-oi.me/tech/continuous-writing-with-github-issues/)，本博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
