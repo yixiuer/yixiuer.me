@@ -12,14 +12,26 @@
     }
 }
 
+sup {
+    font-family: 'glyph-correction', 'Source Code Pro', 'Noto Serif SC', monospace;
+}
+
 h1, h2, h3, h4, h5, h6, th, dt {
     font-weight: normal;
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
-    .post-body p {
-        font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', serif;
-        font-size: 125%;
+    .post-body {
+        p {
+            font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', serif;
+            font-size: 125%;
+        }
+        sup {
+            font-size: 50%;
+        }
+    }
+    .caption {
+        font-size: 75%;
     }
 }
 
