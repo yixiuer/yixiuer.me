@@ -4,7 +4,7 @@ date = "2018-02-04T18:01:02+08:00"
 keywords = ["about", "关于此博客", "一休儿"]
 +++
 
-你好！欢迎来到一休儿的哲学博客。一休儿搭建这个博客的目的其实很简单，只是为了将自己的所读所想笔记下来。也就是说，这个博客其实是一本一休儿的读书笔记本。为什么是博客呢？首先，作为一个生活在电子显示屏前的现代人，一休儿更想拥有一本电子化的笔记本。与传统纸质笔记本相比，电子笔记本有很多优势，比如：便携性、可读性。另外，电子化的笔记本不会与这个电子化时代产生落差，比如添加一张图片到笔记中，这是传统纸质笔记本难以实现的。其次，博客能够解决一个曾经令一休儿头痛的笔记分类问题。简述一下，大家所做的笔记都是按时间顺序的，要想不打破这种顺序进行再分类（归档）是非常困难的，而博客能够完美且简单地解决这个问题。最后，笔记通过博客这个载体能够在互联网世界中传播。一休儿非常赞同 [TED](https://www.ted.com/) 的口号：「Ideas worth spreading」，想法值得去传播。如果说一个想法是一个光点，那么一个博客就如一个光源，虽非孔孟，但通过互联网也许就能照亮他人，照亮整个世界，从而点亮整个文明！
+你好！欢迎来到一休儿的哲学博客。一休儿搭建这个博客的..目的..其实很简单——只是为了将自己的所读所想笔记下来。也就是说，这个博客其实是一本一休儿的读书笔记本。为什么是博客呢？首先，作为一个生活在电子显示屏前的现代人，一休儿更想拥有一本电子化的笔记本。与传统纸质笔记本相比，电子笔记本有很多优势，比如：便携性、可读性。另外，电子化的笔记本不会与这个电子化时代产生落差，比如添加一张图片到笔记中，这是传统纸质笔记本难以实现的。其次，博客能够解决一个曾经令一休儿头痛的笔记分类问题。简述一下，大家所做的笔记都是按时间顺序的，要想不打破这种顺序进行再分类（归档）是非常困难的，而博客能够完美且简单地解决这个问题。最后，笔记通过博客这个载体能够在互联网世界中传播。一休儿非常赞同 [TED](https://www.ted.com/) 的口号：「Ideas worth spreading」，想法值得去传播。如果说一个想法是一个光点，那么一个博客就如一个光源，虽非孔孟，但通过互联网也许就能照亮他人，照亮整个世界，从而点亮整个文明！
 
 > 子曰：「于止，知其所止，可以人而不如鸟乎！」
 >
@@ -22,11 +22,11 @@ keywords = ["about", "关于此博客", "一休儿"]
 
 ---
 
-虽然博客仍处于建设初期，但如果你想订阅一休儿的哲学博客，可以通过下面两种方式：
+虽然博客仍处于建设初期，但如果你想订阅一休儿的哲学博客以及时获取最新内容，可以通过下面两种方式：
 
 1. [Telegram Channel](https://t.me/yixiuer)；
 2. <a href="/atom.xml" target="_blank" rel="noopener">Atom</a>╱<a href="/rss.xml" target="_blank" rel="noopener">RSS</a>。
 
-如果你在浏览博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱的地址是：[yixiuer.me@gmail.com](mailto:yixiuer.me@gmail.com)。
+此外，如果你在浏览本博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱地址是：[yixiuer.me@gmail.com](mailto:yixiuer.me@gmail.com)。
 
-另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客使用 GitHub Issues [持续写作](https://io-oi.me/tech/continuous-writing-with-github-issues/)，本博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
+另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客使用 GitHub Issues [持续写作](https://io-oi.me/tech/continuous-writing-with-github-issues/)，本博客目前自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行持续构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
