@@ -106,21 +106,4 @@ workbox.routing.registerRoute(
     })
 );
 
-// Videos
-workbox.routing.registerRoute(
-    /^https:\/\/gateway\.pinata\.cloud\/ipns\/yixiuer\.me\/videos\/.*/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "videos",
-        plugins: [
-            new workbox.expiration.ExpirationPlugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
 workbox.googleAnalytics.initialize();
