@@ -50,7 +50,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     padding-top: 5em;
 }
 .single {
-    padding-bottom: 20em;
+    padding-bottom: 14em;
 }
 
 .menu {
@@ -74,6 +74,9 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 }
 .post-body {
     margin-top: 3em !important;
+}
+.post-share {
+    margin-top: ($fontSize * 12);
 }
 
 .post {
@@ -157,5 +160,8 @@ pre {
     .tag-cloud {
         width: auto;
         margin: 0;
+    }
+    .post-share {
+        margin-top: ($fontSize * 5);
     }
 }
