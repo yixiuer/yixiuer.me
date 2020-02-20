@@ -76,7 +76,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     margin-top: 3em !important;
 }
 .post-share {
-    margin-top: ($fontSize * 12);
+    margin-top: calc(var(--font-size) * 12);
 }
 
 .post {
@@ -123,9 +123,11 @@ pre {
 }
 
 @media (max-width: $maxWidth) {
+    :root {
+        --font-size: 16px;
+    }
     body {
         background-color: #fcfaf2;
-        font-size: 16px;
     }
     ::-webkit-scrollbar-track {
         background-color: #fcfaf2;
@@ -155,6 +157,6 @@ pre {
         margin: 0;
     }
     .post-share {
-        margin-top: ($fontSize * 5);
+        margin-top: calc(var(--font-size) * 5);
     }
 }
