@@ -928,20 +928,20 @@ uglyURLs = false
     # 分节标题、目录标题
     fontFamilyHeadings = "'Ma Shan Zheng', 'Noto Serif SC', 'EB Garamond', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+    fontFamilyCode = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
     # 引用
-    fontFamilyQuote = "'EB Garamond', STFangsong, 'Noto Serif SC', serif"
+    fontFamilyQuote = "'EB Garamond', 'STFangsong', 'Noto Serif SC', serif"
     # 文章目录
-    fontFamilyTOC = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+    fontFamilyTOC = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
     # 说明文字
-    fontFamilyCaption = "'EB Garamond', STKaiti, 'Noto Serif SC', serif"
+    fontFamilyCaption = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
     # 页脚
-    fontFamilyFooter = "'EB Garamond', 'Long Cang', STKaiti, 'Noto Serif SC', serif"
+    fontFamilyFooter = "'EB Garamond', 'Long Cang', 'STKaiti', 'Noto Serif SC', serif"
     # 主体
-    fontFamilyBody = "'EB Garamond', STShusong, 'Noto Serif SC', serif"
+    fontFamilyBody = "'EB Garamond', 'STShusong', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i|ZCOOL+XiaoWei|Ma+Shan+Zheng|Long+Cang&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
