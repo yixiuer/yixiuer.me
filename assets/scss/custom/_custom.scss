@@ -81,7 +81,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     }
 }
 .post-share {
-    margin-top: calc(var(--font-size) * 12);
+    margin-top: 12rem;
 }
 
 .post {
@@ -128,8 +128,8 @@ pre {
 }
 
 @media (max-width: $maxWidth) {
-    :root {
-        --font-size: 16px;
+    html, body {
+        font-size: 16px;
     }
     body {
         background-color: #fcfaf2;
@@ -162,7 +162,7 @@ pre {
         margin: 0;
     }
     .post-share {
-        margin-top: calc(var(--font-size) * 5);
+        margin-top: 5rem;
     }
     #back-to-top {
         display: block;
