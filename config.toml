@@ -563,7 +563,7 @@ uglyURLs = false
     #      （图标的路径）。
 
     themeColor = "#000"
-    # themeColorDark = "#282a36"
+    # themeColorDark = "#16171d"
     safariMaskColor = "#000"
     msApplicationTileColor = "#fff"
 
