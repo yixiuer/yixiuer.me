@@ -74,11 +74,6 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 }
 .post-body {
     margin-top: 3em !important;
-    p {
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
 }
 .post-share {
     margin-top: 12rem;
