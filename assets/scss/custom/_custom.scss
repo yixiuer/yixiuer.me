@@ -108,12 +108,12 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 code {
     padding: 0;
     background-color: unset;
-    font-size: 100%;
+    font-size: 1em !important;
 }
 pre {
     background-color: unset;
     padding: 0;
-    font-size: 100%;
+    font-size: 1em;
     line-height: $lineHeight;
 }
 
