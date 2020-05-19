@@ -1,3 +1,3 @@
 +++
-slug = "apollo"
+slug = "apollonian"
 +++
