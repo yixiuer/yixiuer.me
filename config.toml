@@ -365,8 +365,8 @@ uglyURLs = false
 
     ## 「视频片段」
     homePoster = "./images/reflection-of-tree-at-night-10s-720p.jpg"
-    homeVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
-    homeVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+    homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
+    homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
     homeTitle = "一休儿的哲学博客"
@@ -1357,6 +1357,6 @@ uglyURLs = false
     fofPoster = "./images/reflection-of-tree-at-night-10s-720p.jpg"
 
     # 视频地址
-    fofVideoWebm = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.webm"
-    fofVideoMp4 = "https://gateway.pinata.cloud/ipns/yixiuer.me/videos/reflection-of-tree-at-night-10s-720p.mp4"
+    fofVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
+    fofVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
     # 说明：视频地址可留空（""）
