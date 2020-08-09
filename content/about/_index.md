@@ -28,4 +28,4 @@ date = "2018-02-04T18:01:02+08:00"
 
 此外，如果你在浏览本博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱地址是：[yixiuer.me@gmail.com](mailto:yixiuer.me@gmail.com)。
 
-另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客使用 GitHub Issues [持续写作](https://io-oi.me/tech/continuous-writing-with-github-issues/)，本博客目前自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，通过 [Netlify](https://www.netlify.com/) 进行持续构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
+另，一休儿的哲学博客的建成离不开众多开源社区的强力支持。本博客[使用 GitHub Issues 持续写作](https://io-oi.me/tech/continuous-writing-with-github-issues/)，博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/yixiuer/yixiuer.me) 上，目前通过 [GitHub Actions](https://github.com/yixiuer/yixiuer.me/actions) 进行持续构建、持续部署，曾经部署在星际文件系统 [IPFS](https://ipfs.io/) 上。

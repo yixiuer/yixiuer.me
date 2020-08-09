@@ -41,7 +41,7 @@ paginate = 5
 
 # URL 相关
 disablePathToLower = false
-relativeURLs = true
+relativeURLs = false
 uglyURLs = false
 
 # URL 结构
@@ -600,8 +600,6 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     enableServiceWorker = true
-    # 说明：需要第三方支持，暂见：
-    #      https://io-oi.me/tech/pwa-via-workbox/
 
 
     ######################################
@@ -914,7 +912,7 @@ uglyURLs = false
     squareBrackets = true
 
     # 替换脚注的返回链接中的文本为图标
-    footnoteReturnLinkIcon = "angle-up"
+    footnoteReturnLinkIcon = ""
     # 说明：如果不为空（""），则会用图标替换
     #      `footnoteReturnLinkContents`
 
@@ -1306,7 +1304,7 @@ uglyURLs = false
     # 文件指纹和子资源完整性（SRI）
 
     # 是否开启
-    enableFingerprint = true
+    enableFingerprint = false
     # 说明：仅对 MemE 生成的 CSS 和 JS 有效
 
 
@@ -1316,7 +1314,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启
-    enableForceHTTPS = true
+    enableForceHTTPS = false
     # 说明：使用 JavaScript 来实现跳转。如果你
     #      的服务器不支持强制 HTTPS 跳转，则可
     #      开启此选项。
@@ -1326,8 +1324,7 @@ uglyURLs = false
     # 平滑滚动
 
     # 是否开启
-    enableSmoothScroll = true
-    # 说明：https://github.com/cferdinandi/smooth-scroll
+    enableSmoothScroll = false
 
 
     ######################################
@@ -1340,7 +1337,7 @@ uglyURLs = false
     ######################################
     # Instant Page
 
-    enableInstantPage = true
+    enableInstantPage = false
     # 说明：https://github.com/instantpage/instant.page
 
 
