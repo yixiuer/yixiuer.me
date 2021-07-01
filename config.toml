@@ -234,7 +234,7 @@ uglyURLs = false
         pre = "internal"
         post = "home"
     [[menu.main]]
-        url = "/original/"
+        url = "/idea/"
         name = "想法"
         weight = 2
         pre = "internal"
@@ -518,7 +518,7 @@ uglyURLs = false
     # 说明：分区的名字即站点的 content 目录下
     #      的文件夹的名字。
 
-    mainSections = ["original", "poetry", "aphorism", "notes", "excerpt"]
+    mainSections = ["idea", "poetry", "aphorism", "notes", "excerpt"]
 
 
     ######################################
