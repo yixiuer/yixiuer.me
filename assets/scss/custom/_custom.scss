@@ -99,7 +99,11 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     font-size: 80%;
 }
 .footer-inner {
-    padding: 2em 2em 2em 2.2em;
+    padding: 2em 2em 2em 2.05em;
+}
+.copyleft-symbol {
+    position: relative;
+    top: 0.05em;
 }
 
 code {

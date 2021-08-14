@@ -1,0 +1,5 @@
+<!-- This file fixes an unknown weird bug with 🄯 -->
+{{ $link := "https://fonts.googleapis.com/css2?family=Noto+Serif+SC&text=🄯&display=swap" }}
+
+<link rel="stylesheet" href="{{ $link }}" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="{{ $link }}" /></noscript>
