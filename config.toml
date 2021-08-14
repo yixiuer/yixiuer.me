@@ -1276,8 +1276,9 @@ uglyURLs = false
     # 是否在首页显示
     displayFooterInHome = false
 
+    displayCopyleftSymbol = true
     # 是否显示版权符号（©）
-    displayCopyrightSymbol = true
+    displayCopyrightSymbol = false
 
     # 是否显示站点的创建年份
     displaySiteCreatedYear = false
