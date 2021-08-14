@@ -25,4 +25,4 @@ slug = "shine-for-you"
 温暖的阳光在心中迸发  
 羞怯的微黄在背后消散
 
-![yellow.jpg](/images/yellow.jpg "Coldplay - Yellow")
+![yellow.jpg](/images/yellow.jpg "Coldplay — Yellow")

@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://yixiuer.me/"
-title = "一休儿的哲学博客 - Yixiuer.me"
+title = "一休儿的哲学博客 — Yixiuer.me"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
