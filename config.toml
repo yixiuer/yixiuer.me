@@ -585,7 +585,7 @@ uglyURLs = false
     #      manifest.json，并检查和修改相关内容
     #      （图标的路径）。
 
-    themeColor = "#000"
+    themeColor = "#fcfaf2"
     # themeColorDark = "#16171d"
     safariMaskColor = "#000"
     msApplicationTileColor = "#fff"
