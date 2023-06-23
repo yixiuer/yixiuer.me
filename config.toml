@@ -1174,6 +1174,7 @@ uglyURLs = false
     repoURL = "https://github.com/yixiuer/yixiuer.me"
     # 编辑地址
     repoEditURL = "https://github.com/yixiuer/yixiuer.me/blob/master"
+    repoEditURLSuffix = "?plain=1"
 
     # Git 的图标
     gitIcon = "code-branch"
