@@ -1208,7 +1208,7 @@ uglyURLs = false
     # 仓库地址
     repoURL = "https://github.com/yixiuer/yixiuer.me"
     # 编辑地址
-    repoEditURL = "https://github.com/yixiuer/yixiuer.me/blob/master"
+    repoEditURL = "https://github.com/yixiuer/yixiuer.me/blob/main"
     repoEditURLSuffix = "?plain=1"
 
     # Git 的图标
