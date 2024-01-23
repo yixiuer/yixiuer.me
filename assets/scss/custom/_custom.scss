@@ -1,19 +1,22 @@
 .home {
-    font-family: 'glyph-correction', 'STShusong', 'Noto Serif SC', serif;
+    font-family: 'glyph-correction', 'Noto Serif TC', 'Noto Serif SC', serif;
     h1 {
-        font-family: 'glyph-correction', 'Noto Serif SC', serif;
+        font-family: 'glyph-correction', 'Noto Serif TC', 'Noto Serif SC', serif;
     }
     .motto {
-        font-family: 'glyph-correction', 'STKaiti', 'Noto Serif SC', serif;
+        font-family: 'glyph-correction', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif;
     }
     .keywords {
         font-size: 90%;
-        font-family: 'glyph-correction', 'STFangsong', 'Noto Serif SC', serif;
+        font-family: 'glyph-correction', 'STFangsong', 'Noto Serif TC', 'Noto Serif SC', serif;
+    }
+    .content {
+        max-width: 28em;
     }
 }
 
 sup {
-    font-family: 'glyph-correction', 'Source Code Pro', 'Noto Serif SC', monospace;
+    font-family: 'glyph-correction', 'Source Code Pro', 'Noto Serif TC', 'Noto Serif SC', monospace;
 }
 
 h1, h2, h3, h4, h5, h6, th, dt {
@@ -23,7 +26,7 @@ h1, h2, h3, h4, h5, h6, th, dt {
 [data-type="poetry"], [data-type="aphorism"] {
     .post-body {
         p {
-            font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', 'EB Garamond', serif;
+            font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif;
             font-size: 125%;
         }
         sup {
@@ -36,7 +39,7 @@ h1, h2, h3, h4, h5, h6, th, dt {
 }
 
 .tag-cloud-item {
-    font-family: 'glyph-correction', 'Long Cang', 'Noto Serif SC', serif;
+    font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', serif;
 }
 
 body, .back-to-top, ::-webkit-scrollbar-track {

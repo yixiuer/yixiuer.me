@@ -2,11 +2,11 @@
 # 站点配置
 
 baseURL = "https://yixiuer.me/"
-title = "一休儿的哲学博客 — Yixiuer.me"
+title = "一休兒的哲學博客 — Yixiuer.me"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
+copyright = "在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。"
 
 # 主题选择
 theme = "meme"
@@ -96,7 +96,7 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "一休儿"
+    name = "一休兒"
     # 邮箱
     email = "yixiuer.me@gmail.com"
     # 座右铭或简介
@@ -233,7 +233,7 @@ uglyURLs = false
     # 自定义的菜单栏
     [[menu.main]]
         pageref = "/home/"
-        name = "首页"
+        name = "首頁"
         weight = 1
         pre = "internal"
         post = "home"
@@ -245,7 +245,7 @@ uglyURLs = false
         post = "pagelines"
     [[menu.main]]
         pageref = "/poetry/"
-        name = "诗作"
+        name = "詩作"
         weight = 3
         pre = "internal"
         post = "leaf"
@@ -257,19 +257,19 @@ uglyURLs = false
         post = "balance-scale"
     [[menu.main]]
         pageref = "/notes/"
-        name = "笔记"
+        name = "筆記"
         weight = 5
         pre = "internal"
         post = "envira"
     [[menu.main]]
         pageref = "/excerpts/"
-        name = "摘录"
+        name = "摘錄"
         weight = 6
         pre = "internal"
         post = "link"
     [[menu.main]]
         pageref = "/about/"
-        name = "关于"
+        name = "關於"
         weight = 7
         pre = "internal"
         post = "user-circle"
@@ -384,10 +384,10 @@ uglyURLs = false
     homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
-    homeTitle = "一休儿的哲学博客"
-    homeMotto = "易·象·辞"
-    homeDescription = "一个关于哲学的博客，目标是构建一个宏大的体系"
-    homeKeywords = "关键词：真理、美德、形而上学、哲学、物理、诗歌、阿波罗、狄俄尼索斯、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、开源、太空"
+    homeTitle = "一休兒的哲學博客"
+    homeMotto = "易·象·辭"
+    homeDescription = "一個關於哲學的博客，目標是構建一個宏大的體系"
+    homeKeywords = "關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
     homeLinksDelimiter = "·"
 
     ## 「文章摘要」
@@ -404,7 +404,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "一个关于哲学的博客，目标是构建一个宏大的体系。关键词：真理、美德、形而上学、哲学、物理、诗歌、阿波罗、狄俄尼索斯、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、开源、太空。"
+    siteDescription = "一個關於哲學的博客，目標是構建一個宏大的體系。關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -1055,26 +1055,26 @@ uglyURLs = false
     # 品牌栏
     fontFamilySiteBrand = ""
     # 菜单栏
-    fontFamilyMenu = "'Noto Serif SC', serif"
+    fontFamilyMenu = "'Noto Serif TC', 'Noto Serif SC', serif"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'ZCOOL XiaoWei', 'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'ZCOOL XiaoWei', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Ma Shan Zheng', 'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Ma Shan Zheng', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
+    fontFamilyCode = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
     # 引用
-    fontFamilyQuote = "'EB Garamond', 'STFangsong', 'Noto Serif SC', serif"
+    fontFamilyQuote = "'EB Garamond', 'STFangsong', 'Noto Serif TC', 'Noto Serif SC', serif"
     # 文章目录
-    fontFamilyTOC = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
+    fontFamilyTOC = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
     # 说明文字
-    fontFamilyCaption = "'EB Garamond', 'STKaiti', 'Noto Serif SC', serif"
+    fontFamilyCaption = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
     # 页脚
-    fontFamilyFooter = "'EB Garamond', 'Long Cang', 'STKaiti', 'Noto Serif SC', serif"
+    fontFamilyFooter = "'EB Garamond', 'Klee One', 'Noto Serif SC', cursive"
     # 主体
-    fontFamilyBody = "'EB Garamond', 'STShusong', 'Noto Serif SC', serif"
+    fontFamilyBody = "'EB Garamond', 'Noto Serif TC', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&family=Klee+One&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
