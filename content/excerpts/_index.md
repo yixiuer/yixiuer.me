@@ -1,4 +1,4 @@
 +++
-title = "摘录"
+title = "摘錄"
 aliases = ["/excerpt/"]
 +++
