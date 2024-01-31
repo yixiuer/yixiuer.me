@@ -3,7 +3,7 @@
 
 baseURL = "https://yixiuer.me/"
 title = "一休兒的哲學博客 — Yixiuer.me"
-languageCode = "zh-CN"
+languageCode = "zh-Hant"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
 copyright = "在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。"
@@ -386,7 +386,7 @@ uglyURLs = false
     homeLogoLink = "/home/"
     homeTitle = "一休兒的哲學博客"
     homeMotto = "易·象·辭"
-    homeDescription = "一個關於哲學的博客，目標是構建一個宏大的體系"
+    homeDescription = "一个關於哲學的博客，目標是構建一个宏大的體系"
     homeKeywords = "關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
     homeLinksDelimiter = "·"
 
@@ -404,7 +404,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "一個關於哲學的博客，目標是構建一個宏大的體系。關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
+    siteDescription = "一个關於哲學的博客，目標是構建一个宏大的體系。關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
