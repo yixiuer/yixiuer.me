@@ -3,7 +3,7 @@
 
 baseURL = "https://yixiuer.me/"
 title = "一休兒的哲學博客 — Yixiuer.me"
-languageCode = "zh-Hant"
+languageCode = "zh-hant"
 hasCJKLanguage = true
 # 版權資訊（支援 Markdown）
 copyright = "在保留本文作者及本文鏈接的前提下，非商業用途隨意轉載分享。"
@@ -15,7 +15,7 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = "zh-hant"
 defaultContentLanguageInSubdir = false
 
 # 是否複數化列表頁面的標題
