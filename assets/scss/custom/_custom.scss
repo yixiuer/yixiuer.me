@@ -38,6 +38,25 @@ h1, h2, h3, h4, h5, h6, th, dt {
     }
 }
 
+article:lang(hant) {
+    .post-title {
+        font-family: 'Yuji Mai', 'Noto Serif TC', serif;
+    }
+    
+    .post-body p {
+        --line-height: 1.618;
+
+        line-height: var(--line-height) !important;
+        font-family: 'Klee One', 'Noto Serif TC', serif !important;
+    }
+}
+
+[data-type="about"] {
+    .post-title {
+        font-family: 'Yuji Mai', 'Noto Serif TC', serif;
+    }
+}
+
 .tag-cloud-item {
     font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', serif;
 }
