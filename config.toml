@@ -385,9 +385,9 @@ uglyURLs = false
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
     homeTitle = "一休兒的哲學博客"
-    homeMotto = "易·象·辭"
-    homeDescription = "一个關於哲學的博客，目標是構建一个宏大的體系"
-    homeKeywords = "關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
+    homeMotto = "易　象　辭"
+    homeDescription = "一箇關於哲學的博客，目標是構建一箇宏大的體系"
+    homeKeywords = "關鍵詞：真理、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
     homeLinksDelimiter = "·"
 
     ## 「文章摘要」
@@ -404,7 +404,7 @@ uglyURLs = false
     # 說明：用於 JSON-LD、Open Graph
 
     # 站點的描述
-    siteDescription = "一个關於哲學的博客，目標是構建一个宏大的體系。關鍵詞：真理、正義、至善、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
+    siteDescription = "一箇關於哲學的博客，目標是構建一箇宏大的體系。關鍵詞：真理、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
     # 說明：用於 HTML 的頭部元資料、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -1074,7 +1074,7 @@ uglyURLs = false
     fontFamilyBody = "'EB Garamond', 'Noto Serif TC', 'Noto Serif SC', serif"
 
     # 網路字型連結
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&family=Klee+One&family=Yuji+Mai&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&family=Klee+One&family=Yuji+Mai&family=Zen+Maru+Gothic&display=swap"
     # 說明：要想讀者一定體驗到你設定的字型，最好
     #      採用網路字型。MemE 主題目前僅支援
     #      Google Fonts 的連結，請前往

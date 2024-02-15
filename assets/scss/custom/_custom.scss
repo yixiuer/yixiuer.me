@@ -1,17 +1,20 @@
 .home {
     font-family: 'glyph-correction', 'Noto Serif TC', 'Noto Serif SC', serif;
     h1 {
-        font-family: 'glyph-correction', 'Noto Serif TC', 'Noto Serif SC', serif;
+        font-family: 'Noto Serif TC', serif;
     }
     .motto {
-        font-family: 'glyph-correction', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif;
+        font-family: 'Zen Maru Gothic', sans-serif;
     }
     .keywords {
         font-size: 90%;
-        font-family: 'glyph-correction', 'STFangsong', 'Noto Serif TC', 'Noto Serif SC', serif;
+        font-family: 'Klee One', cursive;
     }
     .content {
         max-width: 28em;
+    }
+    .links {
+        font-variant: small-caps;
     }
 }
 
