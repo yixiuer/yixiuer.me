@@ -2,7 +2,7 @@
 # 站點配置
 
 baseURL = "https://yixiuer.me/"
-title = "一休兒的哲學博客 — Yixiuer.me"
+title = "一休兒之哲學誌 — Yixiuer.me"
 languageCode = "zh-hant"
 hasCJKLanguage = true
 # 版權資訊（支援 Markdown）
@@ -384,10 +384,10 @@ uglyURLs = false
     homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
-    homeTitle = "一休兒的哲學博客"
+    homeTitle = "一休兒之哲學誌"
     homeMotto = "易　象　辭"
-    homeDescription = "一箇關於哲學的博客，目標是構建一箇宏大的體系"
-    homeKeywords = "關鍵詞：真理、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
+    homeDescription = "一筆論及哲學之網誌　志在構建壯麗之體道"
+    homeKeywords = "關鍵詞：真理、道德、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空"
     homeLinksDelimiter = "·"
 
     ## 「文章摘要」
@@ -404,7 +404,7 @@ uglyURLs = false
     # 說明：用於 JSON-LD、Open Graph
 
     # 站點的描述
-    siteDescription = "一箇關於哲學的博客，目標是構建一箇宏大的體系。關鍵詞：真理、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
+    siteDescription = "一筆論及哲學之網誌，志在構建壯麗之體道。關鍵詞：真理、道德、正義、至善、知識、批判、方法、形而上學、物理、美學、詩、格言、阿波羅、酒神、生命、智能、意識、社會、人類文明、神話、未來、工具、科技、科幻、自然、宇宙、太空。"
     # 說明：用於 HTML 的頭部元資料、JSON-LD、
     #      Open Graph、Atom、RSS
 
