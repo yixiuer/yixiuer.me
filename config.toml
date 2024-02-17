@@ -379,9 +379,9 @@ uglyURLs = false
     homeLinksPadding = 1
 
     ## 「影片片段」
-    homePoster = "./images/reflection-of-tree-at-night-10s-720p.jpg"
-    homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
-    homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
+    homePoster = "./images/reflection_of_tree_at_night_edited_upscaled_4k.jpg"
+    homeVideoWebm = "/videos/reflection_of_tree_at_night_edited_upscaled_4k.webm"
+    homeVideoMp4 = "/videos/reflection_of_tree_at_night_edited_upscaled_4k.mp4"
     homeLogo = "/icons/android-chrome-512x512.png"
     homeLogoLink = "/home/"
     homeTitle = "一休兒之哲學誌"
@@ -1501,11 +1501,11 @@ uglyURLs = false
     # 404 頁面
 
     # 影片封面
-    fofPoster = "./images/reflection-of-tree-at-night-10s-720p.jpg"
+    fofPoster = "./images/reflection_of_tree_at_night_edited_upscaled_4k.jpg"
 
     # 影片地址
-    fofVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
-    fofVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
+    fofVideoWebm = "/videos/reflection_of_tree_at_night_edited_upscaled_4k.webm"
+    fofVideoMp4 = "/videos/reflection_of_tree_at_night_edited_upscaled_4k.mp4"
     # 說明：影片地址可留空（""）
 
 

@@ -1,23 +1,16 @@
 .home {
-    font-family: 'glyph-correction', 'Noto Serif TC', 'Noto Serif SC', serif;
-    h1 {
-        font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Serif TC', serif;
+    .avatar {
+        transition: none; // Disable rotate transform temporarily due to unkonwn brightness bug in Chromium (Yes not in Safari)
     }
     .motto {
         font-family: 'Zen Maru Gothic', sans-serif;
     }
     .keywords {
-        font-size: 90%;
         font-family: 'Klee One', cursive;
-    }
-    .content {
-        max-width: 28em;
     }
     .links {
         font-variant: small-caps;
-    }
-    a {
-        color: #ccc;
     }
 }
 
@@ -63,6 +56,10 @@ article:lang(hant) {
     }
 }
 
+.tag-cloud {
+    width: 42em;
+    margin: 0 -3em;
+}
 .tag-cloud-item {
     font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', serif;
 }
@@ -144,11 +141,6 @@ pre {
     padding: 0;
     font-size: 1em;
     line-height: $lineHeight;
-}
-
-.tag-cloud {
-    width: 42em;
-    margin: 0 -3em;
 }
 
 @media (max-width: $maxWidth) {
