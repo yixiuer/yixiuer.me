@@ -269,7 +269,7 @@ uglyURLs = false
         post = "link"
     [[menu.main]]
         pageref = "/about/"
-        name = "關於"
+        name = "述身"
         weight = 7
         pre = "internal"
         post = "user-circle"
