@@ -968,7 +968,7 @@ uglyURLs = false
     enableCaption = true
 
     # 說明文字的字首
-    captionPrefix = "◎ "
+    captionPrefix = "※ "
 
 
     ######################################
@@ -1047,26 +1047,26 @@ uglyURLs = false
     # 品牌欄
     fontFamilySiteBrand = ""
     # 選單欄
-    fontFamilyMenu = "'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyMenu = "'Noto Serif TC', serif"
     # 文章標題、文章副標題、列表標題、列表的年份和月份標題、相關文章標題、文章上下篇標題、表格的表頭、定義列表中的術語
-    fontFamilyTitle = "'ZCOOL XiaoWei', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Noto Serif TC', 'Noto Serif SC', serif"
     # 分節標題、目錄標題
-    fontFamilyHeadings = "'Ma Shan Zheng', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Noto Serif TC', 'Noto Serif SC', serif"
     # 程式碼、上標、文章元資訊、文章更新徽章、文章的 Git 版本資訊、極簡頁尾、不蒜子站點瀏覽計數
-    fontFamilyCode = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyCode = "'EB Garamond', 'LXGW WenKai TC', cursive"
     # 引用
-    fontFamilyQuote = "'EB Garamond', 'STFangsong', 'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyQuote = "'EB Garamond', 'LXGW WenKai TC', cursive"
     # 文章目錄
-    fontFamilyTOC = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyTOC = "'EB Garamond', 'LXGW WenKai TC', cursive"
     # 說明文字
-    fontFamilyCaption = "'EB Garamond', 'STKaiti', 'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyCaption = "'EB Garamond', 'LXGW WenKai TC', cursive"
     # 頁尾
-    fontFamilyFooter = "'EB Garamond', 'Klee One', 'Noto Serif SC', cursive"
+    fontFamilyFooter = "'EB Garamond', 'LXGW WenKai TC', 'Noto Serif SC', cursive"
     # 主體
-    fontFamilyBody = "'EB Garamond', 'Noto Serif TC', 'Noto Serif SC', serif"
+    fontFamilyBody = "'EB Garamond', 'I.MingCP', serif"
 
     # 網路字型連結
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=ZCOOL+XiaoWei&family=Ma+Shan+Zheng&family=Long+Cang&family=Klee+One&family=Yuji+Mai&family=Zen+Maru+Gothic&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@700&family=LXGW+WenKai+TC:wght@300&display=swap"
     # 說明：要想讀者一定體驗到你設定的字型，最好
     #      採用網路字型。MemE 主題目前僅支援
     #      Google Fonts 的連結，請前往

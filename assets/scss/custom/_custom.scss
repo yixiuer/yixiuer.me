@@ -1,13 +1,25 @@
+// https://github.com/ichitenfont/I.Ming
+@font-face {
+    font-family: 'I.MingCP';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/I.MingCP-8.10.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 .home {
     font-family: 'Noto Serif TC', serif;
     .avatar {
         transition: none; // Disable rotate transform temporarily due to unkonwn brightness bug in Chromium (Yes not in Safari)
     }
     .motto {
-        font-family: 'Zen Maru Gothic', sans-serif;
+        font-family: 'LXGW WenKai TC', cursive;
+    }
+    .description {
+        font-family: 'I.MingCP', serif;
     }
     .keywords {
-        font-family: 'Klee One', cursive;
+        font-family: 'LXGW WenKai TC', cursive;
     }
     .links {
         font-variant: small-caps;
@@ -15,44 +27,21 @@
 }
 
 sup {
-    font-family: 'glyph-correction', 'Source Code Pro', 'Noto Serif TC', 'Noto Serif SC', monospace;
-}
-
-h1, h2, h3, h4, h5, h6, th, dt {
-    font-weight: normal;
+    font-family: 'glyph-correction', 'Source Code Pro', monospace;
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
     .post-body {
-        p {
-            font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', 'EB Garamond', serif;
-            font-size: 125%;
-        }
+        font-family: 'LXGW WenKai TC', cursive;
+        font-size: 125%;
+
         sup {
             font-size: 50%;
         }
     }
     .caption {
         font-size: 75%;
-    }
-}
-
-article:lang(hant) {
-    .post-title {
-        font-family: 'Yuji Mai', 'Noto Serif TC', serif;
-    }
-    
-    .post-body p {
-        --line-height: 1.618;
-
-        line-height: var(--line-height) !important;
-        font-family: 'Klee One', 'Noto Serif TC', serif !important;
-    }
-}
-
-[data-type="about"] {
-    .post-title {
-        font-family: 'Yuji Mai', 'Noto Serif TC', serif;
+        margin: -2em 0 0;
     }
 }
 
@@ -61,7 +50,7 @@ article:lang(hant) {
     margin: 0 -3em;
 }
 .tag-cloud-item {
-    font-family: 'glyph-correction', 'Long Cang', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-family: 'LXGW WenKai TC', cursive;
 }
 
 body, .back-to-top, ::-webkit-scrollbar-track {
@@ -69,6 +58,15 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 }
 .list-item ::before {
     border-color: #eceff1;
+}
+
+.list-year {
+    font-weight: normal;
+}
+[data-type="about"] {
+    .post-title {
+        font-weight: 500;
+    }
 }
 
 .main {
