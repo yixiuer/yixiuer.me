@@ -1549,3 +1549,5 @@ uglyURLs = false
         website = "https://yixiuer.me/"
         # 推特
         twitter = "yixiuer"
+        # Fediverse
+        fediverse = "@yixiuer@bird.makeup"
