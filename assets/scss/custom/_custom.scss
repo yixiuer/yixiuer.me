@@ -27,12 +27,12 @@
 }
 
 sup {
-    font-family: 'glyph-correction', 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', monospace;
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
     .post-body {
-        font-family: 'LXGW WenKai TC', cursive;
+        font-family: 'glyph-correction', 'LXGW WenKai TC', cursive;
         font-size: 125%;
 
         sup {
@@ -50,7 +50,7 @@ sup {
     margin: 0 -3em;
 }
 .tag-cloud-item {
-    font-family: 'LXGW WenKai TC', cursive;
+    font-family: 'glyph-correction', 'LXGW WenKai TC', cursive;
 }
 
 body, .back-to-top, ::-webkit-scrollbar-track {
