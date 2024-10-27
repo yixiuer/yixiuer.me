@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'I.MingCP';
     font-display: swap;
-    src: url('#{$baseRelURL}/fonts/I.MingCP-8.10.woff2') format('woff2');
+    src: url('https://cdn.jsdelivr.net/gh/yixiuer/yixiuer.me/static/fonts/I.MingCP-8.10.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -62,11 +62,6 @@ body, .back-to-top, ::-webkit-scrollbar-track {
 
 .list-year {
     font-weight: normal;
-}
-[data-type="about"] {
-    .post-title {
-        font-weight: 500;
-    }
 }
 
 .main {
@@ -142,7 +137,7 @@ pre {
 }
 
 @media (max-width: $maxWidth) {
-    html, body {
+    .home {
         font-size: 16px;
     }
     body {
