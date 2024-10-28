@@ -1053,20 +1053,20 @@ uglyURLs = false
     # 分節標題、目錄標題
     fontFamilyHeadings = "'Noto Serif TC', 'Noto Serif SC', serif"
     # 程式碼、上標、文章元資訊、文章更新徽章、文章的 Git 版本資訊、極簡頁尾、不蒜子站點瀏覽計數
-    fontFamilyCode = "'EB Garamond', 'LXGW WenKai TC', cursive"
+    fontFamilyCode = "'LXGW WenKai TC', cursive"
     # 引用
-    fontFamilyQuote = "'EB Garamond', 'LXGW WenKai TC', cursive"
+    fontFamilyQuote = "'LXGW WenKai TC', cursive"
     # 文章目錄
-    fontFamilyTOC = "'EB Garamond', 'LXGW WenKai TC', cursive"
+    fontFamilyTOC = "'LXGW WenKai TC', cursive"
     # 說明文字
-    fontFamilyCaption = "'EB Garamond', 'LXGW WenKai TC', cursive"
+    fontFamilyCaption = "'LXGW WenKai TC', cursive"
     # 頁尾
-    fontFamilyFooter = "'EB Garamond', 'LXGW WenKai TC', 'Noto Serif SC', cursive"
+    fontFamilyFooter = "'LXGW WenKai TC', 'Noto Serif SC', cursive"
     # 主體
-    fontFamilyBody = "'EB Garamond', 'I.MingCP', serif"
+    fontFamilyBody = "'I.MingCP', serif"
 
     # 網路字型連結
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+TC:wght@500;700&family=Noto+Serif+SC:wght@700&family=LXGW+WenKai+TC:wght@300&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Serif+SC:wght@700&family=LXGW+WenKai+TC:wght@300&display=swap"
     # 說明：要想讀者一定體驗到你設定的字型，最好
     #      採用網路字型。MemE 主題目前僅支援
     #      Google Fonts 的連結，請前往

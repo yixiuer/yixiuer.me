@@ -28,7 +28,13 @@
 }
 
 sup {
-    font-family: 'Source Code Pro', monospace;
+    font-family: monospace;
+}
+.emphasis-point {
+    font-family: 'I.MingCP', serif;
+}
+blockquote .emphasis-point {
+    font-family: $fontFamilyQuote;
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
@@ -118,7 +124,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     font-size: 80%;
 }
 .footer-inner {
-    padding: 2em 2em 2em 2.05em;
+    padding: 2em 2em 2em 1.42em;
 }
 .copyleft-symbol {
     position: relative;
