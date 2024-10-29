@@ -7,6 +7,26 @@
     font-style: normal;
 }
 
+// https://github.com/TypeNetwork/Amstelvar
+@font-face {
+    font-family: 'Amstelvar';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/Amstelvar-Roman-VF.woff2') format('woff2-variations'),
+         url('#{$baseRelURL}/fonts/Amstelvar-Roman-VF.woff2') format('woff2');
+    font-weight: 100 900;
+    font-stretch: 50% 125%;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Amstelvar';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/Amstelvar-Italic-VF.woff2') format('woff2-variations'),
+         url('#{$baseRelURL}/fonts/Amstelvar-Italic-VF.woff2') format("woff2");
+    font-weight: 100 900;
+    font-stretch: 50% 125%;
+    font-style: italic;
+}
+
 .home {
     font-family: 'Noto Serif TC', serif;
     .avatar {
@@ -35,6 +55,14 @@ sup {
 }
 blockquote .emphasis-point {
     font-family: $fontFamilyQuote;
+}
+blockquote {
+    font-family: 'glyph-correction', 'Amstelvar', 'LXGW WenKai TC', cursive;
+    font-variation-settings: 'wght' 280;
+}
+em {
+    font-family: 'Amstelvar', serif;
+    font-variation-settings: 'wght' 280;
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
