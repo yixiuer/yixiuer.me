@@ -1,8 +1,5 @@
 .home {
     font-family: 'Noto Serif TC', serif;
-    .avatar {
-        transition: none; // Disable rotate transform temporarily due to unkonwn brightness bug in Chromium (Yes not in Safari)
-    }
     .motto {
         font-family: 'LXGW WenKai TC', cursive;
     }
