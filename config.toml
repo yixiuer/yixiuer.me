@@ -273,8 +273,8 @@ uglyURLs = false
         weight = 1
         pre = "internal"
     [[menu.home]]
-        url = "https://t.me/yixiuer"
-        name = "Telegram"
+        url = "https://x.com/yixiuer"
+        name = "X"
         weight = 2
         pre = "external"
     [[menu.home]]
