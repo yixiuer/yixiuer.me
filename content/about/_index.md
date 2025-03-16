@@ -23,7 +23,7 @@ date = "2018-02-04T18:01:02+08:00"
 
 虽然博客仍处于建设初期，但如果你想订阅一休儿的哲学博客以及时获取最新内容，可以通过下面两种方式：
 
-1. [ X](https://x.com/yixiuer)；
+1. [𝕏](https://x.com/yixiuer)；
 2. <a href="/atom.xml" target="_blank" rel="noopener">Atom</a>╱<a href="/rss.xml" target="_blank" rel="noopener">RSS</a>。
 
 此外，如果你在浏览本博客的过程中发现了任何问题（比如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/yixiuer/yixiuer.me/issues) 或直接修改相关文件后提交 PR 给我。如果你有事想要联系一休儿，可以通过邮件，邮箱地址是：[yixiuer.me@gmail.com](mailto:yixiuer.me@gmail.com)。

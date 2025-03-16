@@ -274,7 +274,7 @@ uglyURLs = false
         pre = "internal"
     [[menu.home]]
         url = "https://x.com/yixiuer"
-        name = "X"
+        name = "𝕏"
         weight = 2
         pre = "external"
     [[menu.home]]
