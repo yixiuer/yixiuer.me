@@ -36,6 +36,15 @@ em {
 * {
     font-feature-settings: 'halt';
 }
+.safari-only {
+    /* Safari-only fixes for footer text */
+    .footer {
+        font-family: 'Amstelvar', 'LXGW WenKai TC', 'Noto Serif SC', cursive;
+    }
+    .footer-inner {
+        padding: 2em 2em 2em 1.52em;
+    }
+}
 
 [data-type="poetry"], [data-type="aphorism"] {
     .post-body {
@@ -125,11 +134,7 @@ body, .back-to-top, ::-webkit-scrollbar-track {
     font-size: 80%;
 }
 .footer-inner {
-    padding: 2em 2em 2em 1.47em;
-}
-.copyleft-symbol {
-    position: relative;
-    top: 0.05em;
+    padding: 2em 2em 2em 1.48em;
 }
 
 code {
