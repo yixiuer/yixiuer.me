@@ -33,6 +33,9 @@ em {
     font-family: 'Amstelvar', serif;
     font-variation-settings: 'wght' 280;
 }
+* {
+    font-feature-settings: 'halt';
+}
 
 [data-type="poetry"], [data-type="aphorism"] {
     .post-body {
