@@ -19,12 +19,6 @@
 sup {
     font-family: monospace;
 }
-.emphasis-point {
-    font-family: 'I.MingCP', serif;
-}
-blockquote .emphasis-point {
-    font-family: $fontFamilyQuote;
-}
 blockquote {
     font-family: 'glyph-correction', 'Amstelvar', 'LXGW WenKai TC', cursive;
     font-variation-settings: 'wght' 280;
@@ -32,6 +26,12 @@ blockquote {
 em {
     font-family: 'Amstelvar', serif;
     font-variation-settings: 'wght' 280;
+}
+.emphasis-point {
+    font-family: $fontFamilyBody;
+}
+blockquote .emphasis-point {
+    font-family: $fontFamilyQuote;
 }
 * {
     font-feature-settings: 'halt';
