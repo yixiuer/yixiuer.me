@@ -33,17 +33,22 @@ em {
 blockquote .emphasis-point {
     font-family: $fontFamilyQuote;
 }
-* {
-    font-feature-settings: 'halt';
-}
 .safari-only {
-    /* Safari-only fixes for footer text */
+    /* Safari-only fixes */
+    .emphasis-point {
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+        text-underline-offset: 0.25em;
+    }
     .footer {
         font-family: 'Amstelvar', 'LXGW WenKai TC', 'Noto Serif SC', cursive;
     }
     .footer-inner {
         padding: 2em 2em 2em 1.52em;
     }
+}
+* {
+    font-feature-settings: 'halt';
 }
 
 [data-type="poetry"], [data-type="aphorism"] {
